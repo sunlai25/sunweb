@@ -39,6 +39,8 @@ plugins:
   - search
   - minify:
       minify_html: true
+      minify_js: true
+      minify_css: true
   - redirects:
       redirect_maps:
         'old.md': 'new.md'
