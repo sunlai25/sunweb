@@ -1,0 +1,89 @@
+
+安装库   pip install mkdocs-material
+
+当前目录创建网站框架  mkdocs new .   
+
+常规结构参考
+.
+├── docs
+│   ├── index.md
+│   ├── about
+│   │   ├── overview.md
+│   │   └── team.md
+│   ├── docs
+│   │   ├── getting-started.md
+│   │   └── api.md
+│   └── contact.md
+├── stylesheets
+│   └── extra.css
+├── javascripts
+│   └── extra.js
+└── mkdocs.yml
+
+##########################################################################################################
+# 站点名称
+site_name: My Documentation Site  # 设置站点名称为“我的文档网站”
+
+# 站点描述
+site_description: A site for my project documentation.  # 设置站点描述为“用于我的项目文档的网站”
+
+# 站点作者
+site_author: Your Name  # 设置站点作者为“你的名字”
+
+# 站点URL
+site_url: https://example.com  # 设置站点的URL为“https://example.com”
+
+# 仓库URL
+repo_url: https://github.com/sunlai25/sunweb  # 设置项目代码仓库的URL为“https://github.com/sunlai25/sunweb”
+
+# 主题设置
+theme:  # 主题设置部分
+  name: material  # 使用的主题名称为“material”
+  palette:  # 配色方案
+    primary: 'indigo'  # 主色为“靛蓝色”
+    accent: 'pink'  # 辅助色为“粉色”
+  font:  # 字体设置
+    text: 'Roboto'  # 文字字体为“Roboto”
+    code: 'Roboto Mono'  # 代码字体为“Roboto Mono”
+  features:  # 主题功能
+    - navigation.tabs  # 启用导航标签
+    - navigation.sections  # 启用导航章节
+    - toc.integrate  # 集成目录（table of contents）
+    - search.suggest  # 启用搜索建议
+    - search.highlight  # 启用搜索高亮
+
+# 导航栏设置
+nav:  # 导航栏设置部分
+  - Home: index.md  # 设置导航栏的“Home”链接到“index.md”文件
+  - About:  # 设置导航栏的“About”下拉菜单
+      - Overview: about/overview.md  # “Overview”链接到“about/overview.md”文件
+      - Team: about/team.md  # “Team”链接到“about/team.md”文件
+  - Documentation:  # 设置导航栏的“Documentation”下拉菜单
+      - Getting Started: docs/getting-started.md  # “Getting Started”链接到“docs/getting-started.md”文件
+      - API Reference: docs/api.md  # “API Reference”链接到“docs/api.md”文件
+  - Contact: contact.md  # 设置导航栏的“Contact”链接到“contact.md”文件
+
+# 插件设置
+plugins:  # 插件设置部分
+  - search  # 启用搜索插件
+  - minify:  # 启用压缩插件
+      minify_html: true  # 启用HTML压缩
+  - redirects:  # 启用重定向插件
+      redirect_maps:  # 设置重定向映射
+        'old.md': 'new.md'  # 将“old.md”重定向到“new.md”
+
+# 其他设置
+extra_css:  # 额外的CSS文件
+  - 'stylesheets/extra.css'  # 引入额外的CSS文件“stylesheets/extra.css”
+
+extra_javascript:  # 额外的JavaScript文件
+  - 'javascripts/extra.js'  # 引入额外的JavaScript文件“javascripts/extra.js”
+
+# Markdown扩展设置
+markdown_extensions:  # Markdown扩展设置部分
+  - codehilite  # 启用代码高亮
+  - toc:  # 启用目录扩展
+      permalink: true  # 目录项添加永久链接
+  - footnotes  # 启用脚注支持
+  - admonition  # 启用告示块支持
+  - def_list  # 启用定义列表支持
