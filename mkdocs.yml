@@ -24,7 +24,7 @@ theme:
 nav:
   - 主页: index.md
   - 笔记:
-      - 笔记: notion1/Untitled 1773230825a54f688313f161285fc6e6.md
+      - 开始: notion1/Untitled 1773230825a54f688313f161285fc6e6.md
       - 猎象记: notion1/Untitled 1773230825a54f688313f161285fc6e6/猎象记 23548b956cdc456db2aafefa7c44918c.md
   - 文档:
       - 开始: docs/getting-started.md
