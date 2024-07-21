@@ -16,8 +16,10 @@ build:
     # golang: "1.19"
 
 # Build documentation in the "docs/" directory with Sphinx
-sphinx:
-  configuration: docs/conf.py
+# MkDocs 配置
+mkdocs:
+  configuration: mkdocs.yml  # MkDocs 配置文件路径
+  fail_on_warning: false  # 构建时遇到警告是否失败
 
 # Optionally build your docs in additional formats such as PDF and ePub
 # formats:
