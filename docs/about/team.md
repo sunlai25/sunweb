@@ -1,9 +1,9 @@
 # 团队
 
-Meet the amazing team behind this project.
+来看看这个项目神奇的团队，单打独斗！
 
 ## 成员
 
-- **Alice Smith** - Project Manager
-- **Bob Johnson** - Lead Developer
-- **Charlie Brown** - UX Designer
+- **sun** - 首席设计师
+- **孙来** - 策划
+- **sunlai** - 搭建

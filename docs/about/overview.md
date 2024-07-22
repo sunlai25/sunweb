@@ -1,7 +1,7 @@
 # 概述
 
-Welcome to the overview page. This site is dedicated to providing comprehensive documentation for our project.
+欢迎来到概览界面，呵呵这里什么都没有。我懒得写。
 
 ## 这个项目的用途！
 
-Our project aims to simplify and streamline your workflows, providing efficient and effective solutions for everyday tasks.
+这是我练手用的小网站，所以空空如也！！！

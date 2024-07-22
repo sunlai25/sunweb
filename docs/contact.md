@@ -1,14 +1,15 @@
-# Contact Us
+# 联系我们
 
-We would love to hear from you! If you have any questions or feedback, please reach out to us.
+我很乐意听到你的消息或者反馈，谢谢！！
 
 ## Email
 
-You can email us at [support@example.com](mailto:support@example.com).
+你可以使用email发送信息给 [153732378@qq.com](mailto:support@example.com).
 
-## Social Media
+## 关注
 
-Follow us on social media:
+我们使用的一些社交媒体:
 
-- [Twitter](https://twitter.com/example)
+- [Twitter](https://twitter.com/sunlai25)@sunlai25
+
 - [Facebook](https://facebook.com/example)
