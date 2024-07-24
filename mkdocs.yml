@@ -23,8 +23,9 @@ theme:
 # 导航栏设置
 nav:
   - 主页: index.md
-  - 随笔:
-      - 开始: notion1/人生随笔 b2cd270310304cba91a36f5de685da3a.md
+  - 音乐: notion1/音乐欣赏 41c68649784c48859052b395a4a35a70.md
+  - notion随笔:
+      - 思考记: notion1/人生随笔 b2cd270310304cba91a36f5de685da3a.md
       - 猎象记: notion1/Untitled 1773230825a54f688313f161285fc6e6/猎象记 23548b956cdc456db2aafefa7c44918c.md
 #  - 文档:
 #      - 开始: docs/getting-started.md
@@ -37,6 +38,7 @@ nav:
 # 插件设置
 plugins:
   - search
+#  - mkdocs-audio
   - minify:
       minify_html: true
       minify_js: true
@@ -45,6 +47,9 @@ plugins:
       redirect_maps:
         'old.md': 'new.md'
 # 其他设置
+extra:
+  manifest: manifest.webmanifest
+
 extra_css:
   - 'stylesheets/extra.css'
 extra_javascript:
