@@ -63,3 +63,5 @@ markdown_extensions:
   - footnotes
   - admonition
   - def_list
+  - md_in_html
+  - attr_list

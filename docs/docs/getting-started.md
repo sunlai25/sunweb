@@ -4,11 +4,20 @@ Welcome to the getting started guide. This guide will help you set up and use ou
 
 ## Installation
 
-To install the project, run the following command:
+<iframe 
+  src="//player.bilibili.com/player.html?bvid=BV1RZ421E7Ji&autoplay=0" 
+  width="360" 
+  height="200" 
+  scrolling="yes" 
+  frameborder="1" 
+  style="border: 5px solid #ccc;"
+  allowfullscreen="true">
+</iframe>
 
+To install the project, run the following command:
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1312528250&auto=0&height=66"></iframe>
 ```bash
 pip install myproject
-
 
 #### `docs/docs/api.md`
 
