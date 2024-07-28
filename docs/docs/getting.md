@@ -14,9 +14,6 @@ Welcome to the getting started guide. This guide will help you set up and use ou
   allowfullscreen="true">
 </iframe>
 
-<!--To install the project, run the following command:
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="360" height="86" src="https://music.163.com/outchain/player?type=2&id=1312528250&auto=0&height=66"></iframe>-->
-
 ```bash
 pip install myproject
 

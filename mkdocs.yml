@@ -23,14 +23,16 @@ theme:
 # 导航栏设置
 nav:
   - 主页: index.md
-  - 音乐: notion1/音乐欣赏 41c68649784c48859052b395a4a35a70.md
+  - 音乐: 
+      - 经典中英俄: notion1/音乐欣赏 41c68649784c48859052b395a4a35a70.md
+      - 古诗词编曲: notion1\诗词编曲 0a61827154494e84a932bb07db8633f6.md 
   - notion随笔:
       - 思考记: notion1/人生随笔 b2cd270310304cba91a36f5de685da3a.md
       - 猎象记: notion1/Untitled 1773230825a54f688313f161285fc6e6/猎象记 23548b956cdc456db2aafefa7c44918c.md
 #  - 文档:
 #      - 开始: docs/getting-started.md
 #      - API 参考: docs/api.md
-  - 构思中: docs/getting-started.md
+  - 构思中: docs/getting.md
   - 关于:
       - 概述: about/overview.md
       - 联系: contact.md
