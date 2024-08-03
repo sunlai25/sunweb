@@ -25,7 +25,14 @@ This section provides a detailed API reference for our project.
 
 ## Modules
 
-### `module1`
+### 请点击蓝色的Visit Site开始使用。
+
+<iframe
+src="https://modern-cub-whole.ngrok-free.app/ui/chat/719f060796fd9bdf"
+style="width: 500px; height: 800px;"
+frameborder="0"
+allow="microphone">
+</iframe>
 
 #### `function1(param1, param2)`
 
