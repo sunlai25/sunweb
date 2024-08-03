@@ -4,18 +4,17 @@ Welcome to the getting started guide. This guide will help you set up and use ou
 
 ## Installation
 
-<iframe 
-  src="//player.bilibili.com/player.html?bvid=BV1RZ421E7Ji&autoplay=0" 
-  width="360" 
-  height="200" 
-  scrolling="yes" 
-  frameborder="1" 
-  style="border: 5px solid #ccc;"
-  allowfullscreen="true">
-</iframe>
+
 
 ```bash
 pip install myproject
+
+<script
+async
+defer
+src="https://modern-cub-whole.ngrok-free.app/api/application/embed?protocol=https&host=modern-cub-whole.ngrok-free.app&token=719f060796fd9bdf">
+</script>
+
 
 #### `docs/docs/api.md`
 
