@@ -26,9 +26,11 @@ nav:
   - 音乐: 
       - My song: notion1/音乐欣赏41c68649784c48859052b395a4a35a70.md
       - 归去来兮辞: notion1/诗词编曲.md
-  - notion随笔:
+  - 小试牛刀:
       - 思考记: notion1/人生随笔b2cd270310304cba91a36f5de685da3a.md
-      - 猎象记: notion1/Untitled 1773230825a54f688313f161285fc6e6/猎象记 23548b956cdc456db2aafefa7c44918c.md
+      - 个人日记程序说明: notion1/Untitled 1773230825a54f688313f161285fc6e6/riji_README.md
+      - 日记书写程序（源代码）: notion1/Untitled 1773230825a54f688313f161285fc6e6/riji_程序脚本说明.md
+      
 #  - 文档:
 #      - 开始: docs/getting-started.md
 #      - API 参考: docs/api.md
