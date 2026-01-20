@@ -1,15 +1,6 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "requirements.txt",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "site"
-      }
-    }
-  ],
-  "installCommand": "uv pip install --system -r requirements.txt --break-system-packages",
+  "installCommand": "uv pip install --system -r requirements.txt --break-system-packages || pip install -r requirements.txt --break-system-packages",
   "buildCommand": "mkdocs build --strict",
   "outputDirectory": "site"
 }
