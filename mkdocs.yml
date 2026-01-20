@@ -7,6 +7,7 @@ repo_url: https://github.com/sunlai25/sunweb
 # 主题设置
 theme:
   name: material
+  custom_dir: overrides
   palette:
     primary: 'indigo'
     accent: 'pink'
